@@ -1,0 +1,18 @@
+# slugify
+
+> What slugify is, what it does, and why it has no dependencies.
+
+## Documentation
+
+- [Introduction](/introduction.html): What slugify is, what it does, and why it has no dependencies.
+- [Quickstart](/quickstart.html): Install slugify and generate your first slugs in three lines.
+- [API Reference](/api.html): The exact signature of slugify(), both call forms, return values, and module exports.
+- [Options](/options.html): Every slugify option — replacement, remove, lower, strict, locale, trim — with exact semantics and examples.
+- [Locales](/locales.html): The 12 built-in locales, how overrides work, and how to pick the right language code.
+- [Character Map](/charmap.html): The 641-entry transliteration table — scripts, symbols, currencies, and how unknown characters behave.
+- [Extend](/extend.html): Add custom symbol mappings at runtime with slugify.extend() — semantics, scope, and cleanup.
+- [Browser and Module Formats](/browser-modules.html): Use slugify in Node, the browser, AMD loaders, ES modules, and TypeScript.
+- [URL Slugs and SEO](/url-slugs-seo.html): Patterns for search-friendly, stable URL slugs — lowercasing, punctuation removal, and readable titles.
+- [File Names and Identifiers](/filenames-and-ids.html): Make file-safe names, stable IDs, and readable keys with custom separators.
+- [Multilingual Slugs](/multilingual-slugs.html): Transliterate Bulgarian, German, Vietnamese, Arabic, and other scripts into readable ASCII slugs.
+- [Troubleshooting](/troubleshooting.html): Common pitfalls — regex remove rules, non-string input, extend pollution, and legacy browser support.
