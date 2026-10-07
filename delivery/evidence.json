@@ -1,0 +1,79 @@
+{
+  "summary": "Live Sourcey-generated documentation site for slugify (simov/slugify v1.6.9, MIT), built from the pinned commit 8d8c538c53ddf5c1023c8b4769681bb53877746b with the sourcey 3.6.12 CLI, published at https://astra-intelligence.github.io/slugify-docs/, and verified by a sealed governed validation run under runx-cli 0.9.1 (receipt sha256:a0a39ce60662d78ee3818abf1b61b94b589f65f7430a2ecca15ebf7027110381).",
+  "observations": [
+    {
+      "name": "target_repo",
+      "value": "https://github.com/simov/slugify",
+      "note": "Maintained third-party OSS library; 1745+ stars, MIT license, active (last push 2026-06-29)."
+    },
+    {
+      "name": "pinned_commit",
+      "value": "8d8c538c53ddf5c1023c8b4769681bb53877746b",
+      "note": "Commit pinned at build time; package version 1.6.9."
+    },
+    {
+      "name": "license",
+      "value": "MIT",
+      "note": "Permissive license confirmed in package.json and LICENSE."
+    },
+    {
+      "name": "adapter",
+      "value": "sourcey (npm sourcey 3.6.12)",
+      "note": "Sourcey static documentation generator: markdown pages + sourcey.config.ts."
+    },
+    {
+      "name": "sourcey_command",
+      "value": "sourcey build -c docs/sourcey.config.ts -o dist",
+      "note": "Deterministic build producing HTML pages, search-index.json, sitemap.xml, llms.txt, llms-full.txt, and _og/ assets."
+    },
+    {
+      "name": "docs_config",
+      "value": "docs/sourcey.config.ts",
+      "note": "name slugify; theme preset default, primary #0F766E; navigation groups Getting Started / Reference / Guides; repo + npm navbar links."
+    },
+    {
+      "name": "generated_pages",
+      "value": [
+        "index", "quickstart", "api", "options", "locales", "charmap",
+        "extend", "browser-modules", "url-slugs-seo", "filenames-and-ids",
+        "multilingual-slugs", "troubleshooting"
+      ],
+      "note": "12 navigable pages (index.html + 11 reference/guide pages)."
+    },
+    {
+      "name": "coverage_notes",
+      "value": "Documents 24+ public concepts from source: slugify(), string-shorthand separator, options object (replacement, remove as RegExp or single char, lower, strict, locale, trim), extend(), charmap (641 entries), 12 locale tables, ISO 639-1 codes, Unicode normalization, CommonJS/AMD/browser-global/ES modules/TypeScript usage, URL-SEO, file-name and identifier patterns, multilingual slugs, troubleshooting. Every example output verified against slugify.js v1.6.9.",
+      "note": "API surface extracted from slugify.d.ts, slugify.js, config/charmap.json, config/locales.json."
+    },
+    {
+      "name": "runx_cli_version",
+      "value": "runx-cli 0.9.1",
+      "note": "Exact runx --version output from the governed validation run; satisfies the 0.6.13 floor."
+    },
+    {
+      "name": "governed_receipt",
+      "value": "runx:receipt:sha256:a0a39ce60662d78ee3818abf1b61b94b589f65f7430a2ecca15ebf7027110381",
+      "note": "Sealed runx skill-run receipt (run_sourcey-docs-validator_3f4295e2f9b743dd  and re-run closure completed) covering the validation run: live URL 200 checks for index + all pages + search-index + sitemap + llms.txt; runx-cli 0.9.1; sourcey 3.6.12.",
+      "artifact": "receipts/sha256-a0a39ce60662d78ee3818abf1b61b94b589f65f7430a2ecca15ebf7027110381.json"
+    },
+    {
+      "name": "public_url_checks",
+      "value": {
+        "https://astra-intelligence.github.io/slugify-docs/": 200,
+        "https://astra-intelligence.github.io/slugify-docs/api.html": 200,
+        "https://astra-intelligence.github.io/slugify-docs/options.html": 200,
+        "https://astra-intelligence.github.io/slugify-docs/locales.html": 200,
+        "https://astra-intelligence.github.io/slugify-docs/quickstart.html": 200,
+        "https://astra-intelligence.github.io/slugify-docs/search-index.json": 200,
+        "https://astra-intelligence.github.io/slugify-docs/sitemap.xml": 200,
+        "https://astra-intelligence.github.io/slugify-docs/llms.txt": 200
+      },
+      "note": "All checked 2026-10-06T22:0xZ over HTTPS; site loads for a stranger with no auth."
+    },
+    {
+      "name": "parent_domain",
+      "value": "https://astra-intelligence.github.io",
+      "note": "Organization-owned GitHub Pages under the astra-intelligence org (durable, public, HTTPS); documentation repo astra-intelligence/slugify-docs pins source commit, build command, and page list; served via GitHub Pages gh-pages branch with HTTPS enforced."
+    }
+  ]
+}
