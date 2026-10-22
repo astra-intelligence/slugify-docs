@@ -1,6 +1,6 @@
 # slugify documentation site — delivery report
 
-Live URL: https://astra-intelligence.github.io/slugify-docs/
+Live URL: https://slugify.astraintelligence.co/
 Docs source: https://github.com/astra-intelligence/slugify-docs (main = authored
 source; gh-pages = built site)
 Target library: https://github.com/simov/slugify @ 8d8c538c53ddf5c1023c8b4769681bb53877746b

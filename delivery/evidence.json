@@ -1,5 +1,5 @@
 {
-  "summary": "Live Sourcey-generated documentation site for slugify (simov/slugify v1.6.9, MIT), built from the pinned commit 8d8c538c53ddf5c1023c8b4769681bb53877746b with the sourcey 3.6.12 CLI, published at https://astra-intelligence.github.io/slugify-docs/, and verified by a sealed governed validation run under runx-cli 0.9.1 (receipt sha256:a0a39ce60662d78ee3818abf1b61b94b589f65f7430a2ecca15ebf7027110381).",
+  "summary": "Live Sourcey-generated documentation site for slugify (simov/slugify v1.6.9, MIT), built from the pinned commit 8d8c538c53ddf5c1023c8b4769681bb53877746b with the sourcey 3.6.12 CLI, published at https://slugify.astraintelligence.co/ (durable registered project domain under astraintelligence.co), and verified by a sealed governed validation run under runx-cli 0.9.1 (receipt sha256:a0a39ce60662d78ee3818abf1b61b94b589f65f7430a2ecca15ebf7027110381).",
   "observations": [
     {
       "name": "target_repo",
@@ -34,9 +34,18 @@
     {
       "name": "generated_pages",
       "value": [
-        "index", "quickstart", "api", "options", "locales", "charmap",
-        "extend", "browser-modules", "url-slugs-seo", "filenames-and-ids",
-        "multilingual-slugs", "troubleshooting"
+        "index",
+        "quickstart",
+        "api",
+        "options",
+        "locales",
+        "charmap",
+        "extend",
+        "browser-modules",
+        "url-slugs-seo",
+        "filenames-and-ids",
+        "multilingual-slugs",
+        "troubleshooting"
       ],
       "note": "12 navigable pages (index.html + 11 reference/guide pages)."
     },
@@ -59,21 +68,21 @@
     {
       "name": "public_url_checks",
       "value": {
-        "https://astra-intelligence.github.io/slugify-docs/": 200,
-        "https://astra-intelligence.github.io/slugify-docs/api.html": 200,
-        "https://astra-intelligence.github.io/slugify-docs/options.html": 200,
-        "https://astra-intelligence.github.io/slugify-docs/locales.html": 200,
-        "https://astra-intelligence.github.io/slugify-docs/quickstart.html": 200,
-        "https://astra-intelligence.github.io/slugify-docs/search-index.json": 200,
-        "https://astra-intelligence.github.io/slugify-docs/sitemap.xml": 200,
-        "https://astra-intelligence.github.io/slugify-docs/llms.txt": 200
+        "https://slugify.astraintelligence.co/": 200,
+        "https://slugify.astraintelligence.co/api.html": 200,
+        "https://slugify.astraintelligence.co/options.html": 200,
+        "https://slugify.astraintelligence.co/locales.html": 200,
+        "https://slugify.astraintelligence.co/quickstart.html": 200,
+        "https://slugify.astraintelligence.co/search-index.json": 200,
+        "https://slugify.astraintelligence.co/sitemap.xml": 200,
+        "https://slugify.astraintelligence.co/llms.txt": 200
       },
-      "note": "All checked 2026-10-06T22:0xZ over HTTPS; site loads for a stranger with no auth."
+      "note": "All checked 2026-10-22T22:5xZ over HTTPS on the durable registered domain slugify.astraintelligence.co (Netlify custom domain under astraintelligence.co); site loads for a stranger with no auth."
     },
     {
       "name": "parent_domain",
-      "value": "https://astra-intelligence.github.io",
-      "note": "Organization-owned GitHub Pages under the astra-intelligence org (durable, public, HTTPS); documentation repo astra-intelligence/slugify-docs pins source commit, build command, and page list; served via GitHub Pages gh-pages branch with HTTPS enforced."
+      "value": "https://slugify.astraintelligence.co",
+      "note": "Durable registered project domain under astraintelligence.co (Netlify custom domain), not a free/preview host; documentation repo astra-intelligence/slugify-docs."
     }
   ]
 }
