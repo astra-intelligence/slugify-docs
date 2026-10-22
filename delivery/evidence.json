@@ -73,11 +73,11 @@
         "https://slugify.astraintelligence.co/options.html": 200,
         "https://slugify.astraintelligence.co/locales.html": 200,
         "https://slugify.astraintelligence.co/quickstart.html": 200,
-        "https://slugify.astraintelligence.co/search-index.json": 200,
+        "https://slugify.astraintelligence.co/_search/d4e7189b6e6ca55d0a88.json": 200,
         "https://slugify.astraintelligence.co/sitemap.xml": 200,
         "https://slugify.astraintelligence.co/llms.txt": 200
       },
-      "note": "All checked 2026-10-22T22:5xZ over HTTPS on the durable registered domain slugify.astraintelligence.co (Netlify custom domain under astraintelligence.co); site loads for a stranger with no auth."
+      "note": "All checked 2026-10-22T22:5xZ over HTTPS on the durable registered domain slugify.astraintelligence.co (Netlify custom domain under astraintelligence.co); site loads for a stranger with no auth. Search index served from /_search/ (Sourcey 3.6.12 build)."
     },
     {
       "name": "parent_domain",
